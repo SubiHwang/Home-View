@@ -7,23 +7,65 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		416597232A20EA38006D9F15 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 416597222A20EA38006D9F15 /* HomeViewController.swift */; };
+		416597252A20F782006D9F15 /* SpeechRecognitionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 416597242A20F782006D9F15 /* SpeechRecognitionService.swift */; };
+		4166A0932A358609004B1AA6 /* GlobalResponseBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4166A0922A358609004B1AA6 /* GlobalResponseBtn.swift */; };
 		41A720A52A20E42300603CEE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A720A42A20E42300603CEE /* AppDelegate.swift */; };
 		41A720A72A20E42300603CEE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A720A62A20E42300603CEE /* SceneDelegate.swift */; };
-		41A720A92A20E42300603CEE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A720A82A20E42300603CEE /* ViewController.swift */; };
+		41A720A92A20E42300603CEE /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A720A82A20E42300603CEE /* LoginViewController.swift */; };
 		41A720AC2A20E42300603CEE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41A720AA2A20E42300603CEE /* Main.storyboard */; };
 		41A720AE2A20E42400603CEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41A720AD2A20E42400603CEE /* Assets.xcassets */; };
 		41A720B12A20E42400603CEE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41A720AF2A20E42400603CEE /* LaunchScreen.storyboard */; };
+		41AE88E72A3076CE00B4DD99 /* PanModal in Frameworks */ = {isa = PBXBuildFile; productRef = 41AE88E62A3076CE00B4DD99 /* PanModal */; };
+		41BBA1842A31002500F20A2C /* CharacterCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 41BBA1832A31002500F20A2C /* CharacterCollectionViewCell.xib */; };
+		41BBA1882A3101DE00F20A2C /* CharacterCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41BBA1872A3101DE00F20A2C /* CharacterCollectionViewCell.swift */; };
+		41BBA1AA2A34925400F20A2C /* GlobalCharacter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41BBA1A92A34925400F20A2C /* GlobalCharacter.swift */; };
+		41BBA1AE2A34A80400F20A2C /* GlobalMainCharacter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41BBA1AD2A34A80400F20A2C /* GlobalMainCharacter.swift */; };
+		41CC14602A2222A100EBBE39 /* AddPlantViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41CC145F2A2222A100EBBE39 /* AddPlantViewController.swift */; };
+		41CC14622A22299B00EBBE39 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41CC14612A22299B00EBBE39 /* RegisterViewController.swift */; };
+		41CC14652A24802C00EBBE39 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 41CC14642A24802C00EBBE39 /* Alamofire */; };
+		41CC146A2A2480AC00EBBE39 /* UserAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41CC14692A2480AC00EBBE39 /* UserAPI.swift */; };
+		41CC146C2A2481B600EBBE39 /* UserTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41CC146B2A2481B600EBBE39 /* UserTarget.swift */; };
+		41CC146E2A248A9100EBBE39 /* LoginRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41CC146D2A248A9100EBBE39 /* LoginRequest.swift */; };
+		41CC14702A248AA300EBBE39 /* RegisterRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41CC146F2A248AA300EBBE39 /* RegisterRequest.swift */; };
+		41CC14722A248B0C00EBBE39 /* LoginResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41CC14712A248B0C00EBBE39 /* LoginResponse.swift */; };
+		41CC14742A248E1000EBBE39 /* RegisterResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41CC14732A248E1000EBBE39 /* RegisterResponse.swift */; };
+		41CC14772A248EE200EBBE39 /* Auth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41CC14762A248EE200EBBE39 /* Auth.swift */; };
+		41CC147B2A248FBA00EBBE39 /* TargetType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41CC147A2A248FBA00EBBE39 /* TargetType.swift */; };
+		41CC147D2A2498F900EBBE39 /* HTTPHeaderField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41CC147C2A2498F900EBBE39 /* HTTPHeaderField.swift */; };
+		41CC147F2A24993800EBBE39 /* MyRequestInterceptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41CC147E2A24993800EBBE39 /* MyRequestInterceptor.swift */; };
+		41CC14812A24A29900EBBE39 /* AddCharacterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41CC14802A24A29900EBBE39 /* AddCharacterViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		416597222A20EA38006D9F15 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		416597242A20F782006D9F15 /* SpeechRecognitionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechRecognitionService.swift; sourceTree = "<group>"; };
+		4166A0922A358609004B1AA6 /* GlobalResponseBtn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalResponseBtn.swift; sourceTree = "<group>"; };
 		41A720A12A20E42300603CEE /* home.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = home.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		41A720A42A20E42300603CEE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		41A720A62A20E42300603CEE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		41A720A82A20E42300603CEE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		41A720A82A20E42300603CEE /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		41A720AB2A20E42300603CEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		41A720AD2A20E42400603CEE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		41A720B02A20E42400603CEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		41A720B22A20E42400603CEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41BBA1832A31002500F20A2C /* CharacterCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CharacterCollectionViewCell.xib; sourceTree = "<group>"; };
+		41BBA1872A3101DE00F20A2C /* CharacterCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterCollectionViewCell.swift; sourceTree = "<group>"; };
+		41BBA1A92A34925400F20A2C /* GlobalCharacter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalCharacter.swift; sourceTree = "<group>"; };
+		41BBA1AD2A34A80400F20A2C /* GlobalMainCharacter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalMainCharacter.swift; sourceTree = "<group>"; };
+		41CC145F2A2222A100EBBE39 /* AddPlantViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPlantViewController.swift; sourceTree = "<group>"; };
+		41CC14612A22299B00EBBE39 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		41CC14692A2480AC00EBBE39 /* UserAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAPI.swift; sourceTree = "<group>"; };
+		41CC146B2A2481B600EBBE39 /* UserTarget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTarget.swift; sourceTree = "<group>"; };
+		41CC146D2A248A9100EBBE39 /* LoginRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRequest.swift; sourceTree = "<group>"; };
+		41CC146F2A248AA300EBBE39 /* RegisterRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterRequest.swift; sourceTree = "<group>"; };
+		41CC14712A248B0C00EBBE39 /* LoginResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginResponse.swift; sourceTree = "<group>"; };
+		41CC14732A248E1000EBBE39 /* RegisterResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterResponse.swift; sourceTree = "<group>"; };
+		41CC14762A248EE200EBBE39 /* Auth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Auth.swift; path = home/Network/APIs/Auth.swift; sourceTree = SOURCE_ROOT; };
+		41CC147A2A248FBA00EBBE39 /* TargetType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TargetType.swift; path = home/Network/APIs/TargetType.swift; sourceTree = SOURCE_ROOT; };
+		41CC147C2A2498F900EBBE39 /* HTTPHeaderField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPHeaderField.swift; sourceTree = "<group>"; };
+		41CC147E2A24993800EBBE39 /* MyRequestInterceptor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyRequestInterceptor.swift; sourceTree = "<group>"; };
+		41CC14802A24A29900EBBE39 /* AddCharacterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCharacterViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,12 +73,47 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41AE88E72A3076CE00B4DD99 /* PanModal in Frameworks */,
+				41CC14652A24802C00EBBE39 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		416597202A20EA11006D9F15 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				41A720A82A20E42300603CEE /* LoginViewController.swift */,
+				41CC14612A22299B00EBBE39 /* RegisterViewController.swift */,
+				416597222A20EA38006D9F15 /* HomeViewController.swift */,
+				416597242A20F782006D9F15 /* SpeechRecognitionService.swift */,
+				41CC145F2A2222A100EBBE39 /* AddPlantViewController.swift */,
+				41BBA1872A3101DE00F20A2C /* CharacterCollectionViewCell.swift */,
+				41CC14802A24A29900EBBE39 /* AddCharacterViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		416597212A20EA1A006D9F15 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				41A720AA2A20E42300603CEE /* Main.storyboard */,
+				41BBA1832A31002500F20A2C /* CharacterCollectionViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4166A0942A36DB61004B1AA6 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				41BBA1A92A34925400F20A2C /* GlobalCharacter.swift */,
+				41BBA1AD2A34A80400F20A2C /* GlobalMainCharacter.swift */,
+				4166A0922A358609004B1AA6 /* GlobalResponseBtn.swift */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
 		41A720982A20E42300603CEE = {
 			isa = PBXGroup;
 			children = (
@@ -56,15 +133,66 @@
 		41A720A32A20E42300603CEE /* home */ = {
 			isa = PBXGroup;
 			children = (
+				4166A0942A36DB61004B1AA6 /* Domain */,
+				41CC14662A24805500EBBE39 /* Network */,
+				416597212A20EA1A006D9F15 /* View */,
+				416597202A20EA11006D9F15 /* ViewController */,
 				41A720A42A20E42300603CEE /* AppDelegate.swift */,
 				41A720A62A20E42300603CEE /* SceneDelegate.swift */,
-				41A720A82A20E42300603CEE /* ViewController.swift */,
-				41A720AA2A20E42300603CEE /* Main.storyboard */,
 				41A720AD2A20E42400603CEE /* Assets.xcassets */,
 				41A720AF2A20E42400603CEE /* LaunchScreen.storyboard */,
 				41A720B22A20E42400603CEE /* Info.plist */,
 			);
 			path = home;
+			sourceTree = "<group>";
+		};
+		41CC14662A24805500EBBE39 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				41CC14752A248EDB00EBBE39 /* Models */,
+				41CC14672A24807800EBBE39 /* APIs */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		41CC14672A24807800EBBE39 /* APIs */ = {
+			isa = PBXGroup;
+			children = (
+				41CC14792A248FA800EBBE39 /* Bases */,
+				41CC14682A24809100EBBE39 /* User */,
+			);
+			path = APIs;
+			sourceTree = "<group>";
+		};
+		41CC14682A24809100EBBE39 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				41CC14692A2480AC00EBBE39 /* UserAPI.swift */,
+				41CC146B2A2481B600EBBE39 /* UserTarget.swift */,
+				41CC146D2A248A9100EBBE39 /* LoginRequest.swift */,
+				41CC14712A248B0C00EBBE39 /* LoginResponse.swift */,
+				41CC146F2A248AA300EBBE39 /* RegisterRequest.swift */,
+				41CC14732A248E1000EBBE39 /* RegisterResponse.swift */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		41CC14752A248EDB00EBBE39 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				41CC14762A248EE200EBBE39 /* Auth.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		41CC14792A248FA800EBBE39 /* Bases */ = {
+			isa = PBXGroup;
+			children = (
+				41CC147A2A248FBA00EBBE39 /* TargetType.swift */,
+				41CC147E2A24993800EBBE39 /* MyRequestInterceptor.swift */,
+				41CC147C2A2498F900EBBE39 /* HTTPHeaderField.swift */,
+			);
+			path = Bases;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +211,10 @@
 			dependencies = (
 			);
 			name = home;
+			packageProductDependencies = (
+				41CC14642A24802C00EBBE39 /* Alamofire */,
+				41AE88E62A3076CE00B4DD99 /* PanModal */,
+			);
 			productName = home;
 			productReference = 41A720A12A20E42300603CEE /* home.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +243,10 @@
 				Base,
 			);
 			mainGroup = 41A720982A20E42300603CEE;
+			packageReferences = (
+				41CC14632A24802C00EBBE39 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				41AE88E52A3076CE00B4DD99 /* XCRemoteSwiftPackageReference "PanModal" */,
+			);
 			productRefGroup = 41A720A22A20E42300603CEE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,6 +261,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41BBA1842A31002500F20A2C /* CharacterCollectionViewCell.xib in Resources */,
 				41A720B12A20E42400603CEE /* LaunchScreen.storyboard in Resources */,
 				41A720AE2A20E42400603CEE /* Assets.xcassets in Resources */,
 				41A720AC2A20E42300603CEE /* Main.storyboard in Resources */,
@@ -138,9 +275,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				41A720A92A20E42300603CEE /* ViewController.swift in Sources */,
+				4166A0932A358609004B1AA6 /* GlobalResponseBtn.swift in Sources */,
+				41BBA1882A3101DE00F20A2C /* CharacterCollectionViewCell.swift in Sources */,
+				41CC147B2A248FBA00EBBE39 /* TargetType.swift in Sources */,
+				41CC14602A2222A100EBBE39 /* AddPlantViewController.swift in Sources */,
+				41CC14702A248AA300EBBE39 /* RegisterRequest.swift in Sources */,
+				41CC14722A248B0C00EBBE39 /* LoginResponse.swift in Sources */,
+				41CC146A2A2480AC00EBBE39 /* UserAPI.swift in Sources */,
+				416597252A20F782006D9F15 /* SpeechRecognitionService.swift in Sources */,
+				41CC14812A24A29900EBBE39 /* AddCharacterViewController.swift in Sources */,
+				41CC146E2A248A9100EBBE39 /* LoginRequest.swift in Sources */,
+				41BBA1AE2A34A80400F20A2C /* GlobalMainCharacter.swift in Sources */,
+				41CC146C2A2481B600EBBE39 /* UserTarget.swift in Sources */,
+				41BBA1AA2A34925400F20A2C /* GlobalCharacter.swift in Sources */,
+				41CC147F2A24993800EBBE39 /* MyRequestInterceptor.swift in Sources */,
+				41CC14622A22299B00EBBE39 /* RegisterViewController.swift in Sources */,
+				41A720A92A20E42300603CEE /* LoginViewController.swift in Sources */,
+				41CC14742A248E1000EBBE39 /* RegisterResponse.swift in Sources */,
 				41A720A52A20E42300603CEE /* AppDelegate.swift in Sources */,
+				41CC14772A248EE200EBBE39 /* Auth.swift in Sources */,
+				41CC147D2A2498F900EBBE39 /* HTTPHeaderField.swift in Sources */,
 				41A720A72A20E42300603CEE /* SceneDelegate.swift in Sources */,
+				416597232A20EA38006D9F15 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,6 +512,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		41AE88E52A3076CE00B4DD99 /* XCRemoteSwiftPackageReference "PanModal" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/slackhq/PanModal.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		41CC14632A24802C00EBBE39 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		41AE88E62A3076CE00B4DD99 /* PanModal */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 41AE88E52A3076CE00B4DD99 /* XCRemoteSwiftPackageReference "PanModal" */;
+			productName = PanModal;
+		};
+		41CC14642A24802C00EBBE39 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 41CC14632A24802C00EBBE39 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 41A720992A20E42300603CEE /* Project object */;
 }
